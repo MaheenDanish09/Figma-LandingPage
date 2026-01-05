@@ -1,0 +1,741 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: rgba(0, 102, 255, 1);
+    --text-color: black;
+    --text-color2:
+
+}
+
+/* ////HEADER START//// */
+header {
+    height: 76px;
+    max-width: 1920px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .wrapper .logo img {
+    margin-right: 0.7em;
+    height: 3em;
+    width: 3em;
+}
+
+header .wrapper nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header .wrapper nav a img {
+    margin-left: 0.5em;
+}
+
+header .wrapper nav {
+    display: flex;
+    gap: 3em;
+}
+
+header .wrapper .btns .btn1 {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+header .wrapper .btns .btn2 {
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 1em 1em;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+header .wrapper .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ////HEADER END//// */
+
+/* ////HERO SECTION START//// */
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.hero .wrapper {
+    display: flex;
+    width: 70%;
+    height: fit-content;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.hero .wrapper .herocontent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -5em;
+}
+
+.hero .wrapper .herocontent h1 {
+    font-weight: 900;
+    font-size: 58px;
+    margin-bottom: 0.2em;
+    width: 900px;
+    text-shadow: 1px 1px 4px;
+}
+
+.hero .wrapper .herocontent p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 600px;
+    margin-bottom: 3em;
+}
+
+.hero .wrapper .herocontent .search input {
+    height: 50px;
+    width: 250px;
+    padding: 1em 1em;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+}
+
+.hero .wrapper .herocontent .search button {
+    height: 50px;
+    padding: 1em 1em;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.hero .wrapper .herocontent .paras {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+
+}
+
+.hero .wrapper .herocontent .paras p {
+    font-weight: 400;
+}
+
+.hero .wrapper .herocontent .paras img {
+    height: 7px;
+    width: 7px;
+    margin-bottom: 3em;
+}
+
+.hero .wrapper .heroimage {
+    width: 45%;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    margin-left: 170px;
+}
+
+.hero .wrapper .heroimage .toppart .instagramicon {
+    position: absolute;
+    z-index: 3;
+    top: 400px;
+    left: -60px;
+}
+
+.hero .wrapper .heroimage .toppart .main {
+    margin-left: 1.3em;
+    margin-right: -12px;
+}
+
+.hero .wrapper .heroimage .sidepart {
+    margin-top: 95px;
+    margin-right: 180px;
+}
+
+/* ////HERO SECTION END//// */
+
+/* ////HERO2 SECTION START//// */
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -170px;
+}
+
+.logos div {
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+
+/* ////HERO2 SECTION END//// */
+
+/* ////ABOUT SECTION START//// */
+.about {
+    margin-top: 20em;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about .wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about .wrapper .sidepart h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0.6em;
+}
+
+.about .wrapper .sidepart {
+    margin-left: 2em;
+}
+
+/* ////ABOUT SECTION END//// */
+
+/*  ////BENEFITS SECTION START//// */
+.benefits {
+    margin-top: -8em;
+    height: 100vh;
+    width: 100vw;
+}
+
+.benefits .wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.benefits .wrapper .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    align-items: center;
+}
+
+.benefits .wrapper .content h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+
+.benefits .wrapper .content p {
+    max-width: 90%;
+    font-weight: 400;
+    font-size: 1.34em;
+    line-height: 30px;
+    text-align: center;
+}
+
+.benefits .wrapper .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    max-width: 90%;
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+
+.benefits .wrapper .cards .card {
+    height: 10em;
+    width: 15em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.benefits .wrapper .cards .card img {
+    margin-bottom: 1.2em;
+}
+
+/*  ////BENEFITS SECTION END//// */
+
+/* ////BENEFITS 2 SECTION START//// */
+.benefits2 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.benefits2 .wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -12em;
+}
+
+.benefits2 .wrapper .content {
+    margin-bottom: 6em;
+}
+
+.benefits2 .wrapper .content h1 {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.benefits2 .wrapper .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    max-width: 100%;
+}
+
+.benefits2 .wrapper .cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 13em;
+    width: 30em;
+    background-color: rgba(238, 241, 247, 1);
+    border-radius: 10px;
+    padding: 20px;
+    /* gap: 30px; */
+}
+
+.benefits2 .wrapper .cards .card img {
+    height: 1em;
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+.benefits2 .wrapper .cards .card h2 {
+    font-weight: 800;
+}
+
+.benefits2 .wrapper .cards .card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+.benefits2 .wrapper .cards .card p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bottomcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    width: 30em;
+    margin: 0 auto;
+    margin-top: 6em;
+}
+
+.bottomcontent p {
+    text-align: center;
+    margin-top: 1.4em;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bottomcontent .clovinbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomcontent .clovinbottom p {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+/* ////BENEFITS 2 SECTION END//// */
+
+/* ////TEMPLATES SECTION START//// */
+.templates {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(17, 24, 39, 1);
+}
+
+.templates .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.templates .wrapper .content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+}
+
+.templates .wrapper .content h1 {
+    max-width: 55%;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.templates .wrapper .content p {
+    max-width: 55%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 5em;
+}
+
+.templates .wrapper .content button {
+    background-color: var(--primary-color);
+    height: 45px;
+    width: 190px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.templates .wrapper .cards {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.templates .wrapper .cards .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 25em;
+    width: 20em;
+}
+
+.templates .wrapper .cards .card img {
+    width: 18em;
+}
+
+.templates .wrapper .cards .card h3 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.templates .wrapper .cards .card p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.templates .wrapper .cards .card1 img {
+    margin-bottom: 2em;
+}
+
+.templates .wrapper .cards .card2 img {
+    margin-top: 3em;
+}
+
+.templates .wrapper .cards .card3 img {
+    margin-bottom: 3em;
+}
+
+.templates .wrapper .cards .card4 img {
+    margin-bottom: 3em;
+}
+
+.templates .wrapper .threedots {
+    margin-top: 2em;
+}
+
+/* ////TEMPLATES SECTION END//// */
+
+/* ////INTEGRATIONS SECTION START//// */
+.integrations {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 7em;
+}
+
+/* ////INTEGRATIONS SECTION END//// */
+
+/* ////FEATURES SECTION START//// */
+.features {
+    height: 100vh;
+    width: 100vw;
+}
+
+.features .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20em;
+}
+
+.features .wrapper .content {
+    margin-bottom: 5em;
+}
+
+.features .wrapper .content img {
+    margin-left: 20em;
+}
+
+.features .wrapper .content h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.features .wrapper .content p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -1em;
+}
+
+.features .wrapper .buttons {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.features .wrapper .buttons p img {
+    margin-right: 0.3em;
+}
+
+.features .wrapper .buttons p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.features .wrapper .featuresboxes {
+    display: flex;
+    width: 90%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+}
+
+.features .wrapper .featuresboxes .sidebar {
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.features .wrapper .featuresboxes .sidebar .logopart {
+    display: flex;
+    margin: 1em auto;
+}
+
+.features .wrapper .featuresboxes .sidebar .logopart .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+
+.features .wrapper .featuresboxes .sidebar .logopart .sidebarlogo {
+    height: 3em;
+    width: 3em;
+
+}
+
+.features .wrapper .featuresboxes .sidebar .logopart .sidebararrow {
+    height: 2em;
+    width: 2em;
+    margin-left: 2.5em;
+    margin-top: 0.5em;
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarcontent {
+    display: flex;
+    gap: 1em;
+    margin-left: 2em;
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarcontent img {
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.features .wrapper .featuresboxes .sidebar .logopart .text p {
+    color: rgba(156, 160, 172, 1);
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarcontent p {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.features .wrapper .featuresboxes .sidebar .headings {
+    margin-left: 1em;
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarprofile {
+    display: flex;
+    height: 7em;
+    border: 1px solid rgba(156, 160, 172, 1);
+    margin-top: 2.5em;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarprofile .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarprofile .content p {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(156, 160, 172, 1);
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarprofile .profile {
+    height: 3em;
+    width: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+
+.features .wrapper .featuresboxes .sidebar .sidebarprofile .arrow {
+    height: 2em;
+    width: 2em;
+    margin-top: 0.3em;
+}
+
+.features .wrapper .featuresboxes .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.features .wrapper .featuresboxes .main .maintop .heading h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.features .wrapper .featuresboxes .main .maintop .heading h1 span {
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+.features .wrapper .featuresboxes .main .maintop {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 3em;
+}
+
+.features .wrapper .featuresboxes .main .maintop .buttons {
+    color: rgba(156, 160, 172, 1);
+}
+
+.features .wrapper .featuresboxes .main .maintop .buttons p {
+    font-weight: 400;
+
+}
+
+.features .wrapper .featuresboxes .main .recipebook {
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.features .wrapper .featuresboxes .main .recipebook h2 {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.features .wrapper .featuresboxes .main .recipebook button {
+    margin-left: 70em;
+    background-color: rgba(46, 50, 56, 1);
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.features .wrapper .featuresboxes .main .recipebook button img {
+    margin-right: 0.5em;
+}
+.features .wrapper .features2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10em;
+}
+.features .wrapper .features2 .content h1{
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.features .wrapper .features2 .content .checkpoints{
+    display: flex;
+    margin-left:6em;
+}
+.features .wrapper .features2 .content .checkpoints p{
+    margin-right: -15em;
+    
+}
+.features .wrapper .features2  .mainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+    margin-top: 3em;
+}
+.features .wrapper .features2  .mainimg img{
+    margin:  auto;
+    width: 94%;
+}
+/* ////FEATURES SECTION END//// */
