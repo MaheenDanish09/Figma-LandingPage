@@ -986,14 +986,119 @@ header .wrapper .logo {
 /* ////SOCIAL PROOF REVIEWS SECTION END//// */
 
 /* ////SERVICES SECTION START//// */
-.services{
-    height: 200vh;
+.services {
+    height: 230vh;
     width: 100vw;
+    margin-top: 15em;
 }
-.services .wrapper{
+
+.services .wrapper {
     height: 100%;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 10em;
 }
+
+.services .wrapper .heading h1 {
+    font-weight: 900;
+    font-size: 62px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.part1,
+.part2,
+.part3 {
+    display: flex;
+    max-width: 70%;
+}
+
+.part1 .content h3,
+.part2 .content h3 {
+    font-weight: 900;
+    font-size: 48px;
+    max-width: 70%;
+    margin: 0.5em 0;
+}
+
+.part3 .content h3 {
+    font-weight: 900;
+    font-size: 48px;
+    max-width: 100%;
+    margin: 0.5em 0;
+}
+
+.part1 .content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 90%;
+    margin: 1.5em 0;
+}
+
+.part2 .content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 85%;
+    margin: 1.5em 0;
+}
+
+.part3 .content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 75%;
+    margin: 1.5em 0;
+}
+
+.part1 .content {
+    margin-left: 10em;
+    margin-top: 7em;
+}
+
+.part2 .content {
+    margin-top: 2em;
+}
+
+.part3 .content {
+    margin-left: 10em;
+}
+
+.part3 .image {
+    margin-right: 10em;
+}
+
+.part2 .image .img1 {
+    position: relative;
+}
+
+.part2 .image .img2 {
+    position: absolute;
+    margin-left: -13em;
+    margin-top: -1.5em;
+}
+
+.part2 .image .img3 {
+    position: absolute;
+    margin-left: -32em;
+    margin-top: 12em;
+}
+
+.part3 .image .img1 {
+    position: relative;
+}
+
+.part3 .image .img2 {
+    position: absolute;
+    margin-left: -13em;
+    margin-top: -4em;
+}
+
 /* ////SERVICES SECTION END//// */
+
+/* ////PRICING SECTION START//// */
+
+/* ////PRICING SECTION END//// */
