@@ -104,7 +104,7 @@ header .wrapper .logo {
     font-weight: 900;
     font-size: 58px;
     margin-bottom: 0.2em;
-    width: 900px;
+    width: 750px;
     text-shadow: 1px 1px 4px;
 }
 
@@ -704,7 +704,8 @@ header .wrapper .logo {
 .features .wrapper .featuresboxes .main .recipebook button img {
     margin-right: 0.5em;
 }
-.features .wrapper .features2{
+
+.features .wrapper .features2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -712,66 +713,78 @@ header .wrapper .logo {
     text-align: center;
     margin-top: 10em;
 }
-.features .wrapper .features2 .content h1{
+
+.features .wrapper .features2 .content h1 {
     font-weight: 900;
     font-size: 48px;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
-.features .wrapper .features2 .content .checkpoints{
+
+.features .wrapper .features2 .content .checkpoints {
     display: flex;
-    margin-left:6em;
+    margin-left: 6em;
 }
-.features .wrapper .features2 .content .checkpoints p{
+
+.features .wrapper .features2 .content .checkpoints p {
     margin-right: -15em;
-    
+
 }
-.features .wrapper .features2  .mainimg{
+
+.features .wrapper .features2 .mainimg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     margin-top: 3em;
 }
-.features .wrapper .features2  .mainimg img{
-    margin:  auto;
+
+.features .wrapper .features2 .mainimg img {
+    margin: auto;
     width: 94%;
 }
+
 /* ////FEATURES SECTION END//// */
 
 /* ////CTA SECTION START//// */
-.cta{
+.cta {
     height: 100vh;
     width: 100vw;
 }
-.cta .wrapper{
+
+.cta .wrapper {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cta .wrapper .right .images{
+
+.cta .wrapper .right .images {
     display: flex;
-flex-direction: row;
+    flex-direction: row;
 }
-.cta .wrapper .right{
+
+.cta .wrapper .right {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin-right: -12em;
 }
-.cta .wrapper .content{
+
+.cta .wrapper .content {
     width: 50%;
     margin-top: 3em;
 }
-.cta .wrapper .content h1{
+
+.cta .wrapper .content h1 {
     font-weight: 900;
     font-size: 54px;
     margin-bottom: 0.2em;
     width: 640px;
 }
+
 .cta .wrapper .content p {
     font-weight: 500;
     font-size: 18px;
@@ -814,57 +827,65 @@ flex-direction: row;
     width: 7px;
     margin-bottom: 3em;
 }
+
 /* ////CTA SECTION END//// */
 
 /* ////FEATURES 3 SECTION START//// */
-.features3{
+.features3 {
     height: 70vh;
     width: 100vw;
     margin-top: -6em;
 }
-.features3 .wrapper{
+
+.features3 .wrapper {
     height: 100%;
     max-width: 70%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin: 0 auto;
 }
-.features3 .wrapper .head h1{
+
+.features3 .wrapper .head h1 {
     font-weight: 900;
     font-size: 48px;
     margin-bottom: 2em;
 }
-.features3 .wrapper .grid{
+
+.features3 .wrapper .grid {
     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 50px;
-  width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    width: 80%;
 
 }
-.features3 .wrapper .grid .box h4{
+
+.features3 .wrapper .grid .box h4 {
     font-weight: 700;
     font-size: 22px;
 }
-.features3 .wrapper .grid .box p{
+
+.features3 .wrapper .grid .box p {
     font-weight: 400;
     font-size: 18px;
 }
-.features3 .text{
+
+.features3 .text {
     position: relative;
     left: 38%;
 }
+
 /* ////FEATURES 3 SECTION END//// */
 
 /* ////SOCIAL PROOF VIDEO SECTION START//// */
-.socialvideo{
+.socialvideo {
     height: 50vh;
     width: 100vw;
     margin-top: 10em;
 }
-.socialvideo .wrapper{
+
+.socialvideo .wrapper {
     height: 95%;
     width: 70%;
     margin: 0 auto;
@@ -872,34 +893,94 @@ flex-direction: row;
     border-radius: 20px;
     display: flex;
     align-items: center;
-    
+
 }
-.socialvideo .wrapper .content{
-display: flex;
-flex-direction: column;
-color: white;
-max-width: 40%;
-margin: 0 4em;
+
+.socialvideo .wrapper .content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 40%;
+    margin: 0 4em;
 }
-.socialvideo .wrapper .content h1{
+
+.socialvideo .wrapper .content h1 {
     font-weight: 900;
     font-size: 46px;
 }
-.socialvideo .wrapper .content p{
+
+.socialvideo .wrapper .content p {
     margin-top: 1em;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
-.socialvideo .wrapper .content .credits{
+
+.socialvideo .wrapper .content .credits {
     margin-top: 0;
 }
-.socialvideo .wrapper .content .jacole{
-     font-family: "Rochester", cursive;
-     font-weight: 400;
-     font-size: 36px;
+
+.socialvideo .wrapper .content .jacole {
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-size: 36px;
 }
-.socialvideo .wrapper .image img{
+
+.socialvideo .wrapper .image img {
     margin-left: 2em;
 }
+
 /* ////SOCIAL PROOF VIDEO SECTION END//// */
+
+/* ////SOCIAL PROOF REVIEWS SECTION START//// */
+.socialreview {
+    height: 90vh;
+    width: 100vw;
+    margin-top: 10em;
+}
+
+.socialreview .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialreview .wrapper .head h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.socialreview .wrapper .head p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.socialreview .wrapper .grid {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 60px;
+    width: 60%;
+}
+
+.socialreview .wrapper .grid .box img {
+    margin-top: 1em;
+}
+
+.socialreview .wrapper .grid .box h4 {
+    margin-top: 0.5em;
+}
+
+.socialreview .wrapper .grid .box p {
+    margin-top: 0.5em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* ////SOCIAL PROOF REVIEWS SECTION END//// */
