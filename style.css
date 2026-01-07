@@ -1100,5 +1100,320 @@ header .wrapper .logo {
 /* ////SERVICES SECTION END//// */
 
 /* ////PRICING SECTION START//// */
+.pricing {
+    height: 200vh;
+    width: 100vw;
+}
+
+.pricing .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing .wrapper .head h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.pricing .wrapper .head p {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.pricing .wrapper .head .btns {
+    height: 3.229vmax;
+    width: 13.75vmax;
+    border: 2px solid rgba(214, 218, 228, 1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em auto;
+}
+
+.pricing .wrapper .head .btns .btn1 {
+    height: 2.708vmax;
+    width: 7.604;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pricing .wrapper .head .btns .btn2 {
+    height: 2.708vmax;
+    width: 6.604vmax;
+    border: none;
+    color: rgba(156, 160, 172, 1);
+}
+
+.pricing .wrapper .cards {
+    display: flex;
+    gap: 1.5em;
+}
+
+.pricing .wrapper .cards .card1,
+.pricing .wrapper .cards .card2,
+.pricing .wrapper .cards .card3,
+.pricing .wrapper .cards .card4 {
+    height: 28.802vmax;
+    width: 16.146vmax;
+    border: 1.11px solid rgba(214, 218, 228, 1);
+    border-radius: 10px;
+    padding: 1.563vmax;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.pricing .wrapper .cards .card1 h3,
+.pricing .wrapper .cards .card2 h3,
+.pricing .wrapper .cards .card3 h3,
+.pricing .wrapper .cards .card4 h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.pricing .wrapper .cards .card1 .price,
+.pricing .wrapper .cards .card2 .price,
+.pricing .wrapper .cards .card3 .price,
+.pricing .wrapper .cards .card4 .price {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.pricing .wrapper .cards .card1 .price span,
+.pricing .wrapper .cards .card2 .price span,
+.pricing .wrapper .cards.card3 .price span,
+.pricing .wrapper .cards .card4 .price span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pricing .wrapper .cards .card1 button,
+.pricing .wrapper .cards .card3 button,
+.pricing .wrapper .cards .card4 button {
+    height: 2.656vmax;
+    width: 12.969vmax;
+    border: 2px solid rgba(0, 102, 255, 1);
+    color: rgba(0, 102, 255, 1);
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0.1em 0;
+}
+
+.pricing .wrapper .cards .card2 button {
+    height: 2.656vmax;
+    width: 12.969vmax;
+    border: 2px solid rgba(0, 102, 255, 1);
+    color: white;
+    background-color: rgba(0, 102, 255, 1);
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0.1em 0;
+}
+
+.pricing .wrapper .cards .card2 {
+    border: 5px solid rgba(0, 102, 255, 1);
+}
+
+.pricing .wrapper .cards .card1:hover,
+.pricing .wrapper .cards .card3:hover {
+    border: 5px solid rgba(0, 102, 255, 1);
+}
+
+.pricing .wrapper .cards .card4:hover {
+    border: 5px solid rgba(0, 102, 255, 1);
+    gap: 1em;
+}
+
+.faq {
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.faq h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.faq .para {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3em 0;
+}
+
+.faq .questions p {
+    margin: 2em 0;
+}
+
+.questions {
+
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 700px;
+    gap: 10px;
+
+}
+
+.box h3 {
+    cursor: pointer;
+}
+
+.ans {
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition:
+        max-height 1s ease,
+        opacity 1s ease,
+        transform 1s ease;
+}
+
+.box:hover .ans {
+    max-height: 100px;
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /* ////PRICING SECTION END//// */
+
+/* ////SOCIAL PROOF SECTION START//// */
+.proof {
+    height: 50vh;
+    width: 100vw;
+}
+
+.proof .wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.proof .wrapper h1 {
+    font-weight: 900;
+    font-size: 48px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.proof .wrapper img {
+    margin-left: 33em;
+    margin-top: 7em;
+}
+
+/* ////SOCIAL PROOF SECTION END//// */
+
+/* ////FOOTER START//// */
+footer {
+    margin-top: 10em;
+    height: 50vh;
+    width: 100vw;
+}
+
+footer .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .wrapper .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .wrapper .head h1 {
+    font-weight: 900;
+    font-size: 58px;
+    margin-bottom: 0.2em;
+    width: 750px;
+    text-align: center;
+}
+
+footer .wrapper .head p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 600px;
+    margin-bottom: 3em;
+    text-align: center;
+    margin-left: 2em;
+}
+
+footer .wrapper .head .search input {
+    height: 50px;
+    width: 250px;
+    padding: 1em 1em;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+    margin-left: 3em;
+}
+
+footer .wrapper .head .search button {
+    height: 50px;
+    padding: 1em 1em;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer .wrapper .head .paras {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+
+}
+
+footer .wrapper .head .paras p {
+    font-weight: 400;
+}
+
+footer .wrapper .head .paras img {
+    height: 7px;
+    width: 7px;
+    margin-bottom: 3em;
+}
+
+.blackbox {
+    width: 100%;
+    min-height: 420px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 100px;
+}
+
+.columns,
+.columns ul {
+    max-width: 400px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.columns h3 {
+    padding-bottom: 20px;
+}
+
+/* ////FOOTER END//// */
